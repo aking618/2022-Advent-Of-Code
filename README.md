@@ -9,7 +9,7 @@ Every day that I complete will be visible in this repo. Folders are labeled with
 | 1   | Javascript | X   | X   |
 | 2   | Javascript | X   | X   |
 | 3   | Java       | X   | X   |
-| 4   |            |     |     |
+| 4   | Java       | X   | X   |
 | 5   |            |     |     |
 | 6   |            |     |     |
 | 7   |            |     |     |
