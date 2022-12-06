@@ -11,12 +11,14 @@ Every day that I complete will be visible in this repo. Folders are labeled with
 | 3   | Java       | X   | X   |
 | 4   | Java       | X   | X   |
 | 5   | PHP        | X   | X   |
-| 6   | Python     |     |     |
+| 6   | Python     | X   | X   |
 
 <br>
 <br>
 
 ## How to run
+
+Go to the folder of the day you want to run and run the following command based on the language used.
 
 ### Javascript
 
@@ -36,6 +38,12 @@ java Driver
 ```bash
 php solutionOne.php
 php solutionTwo.php
+```
+
+### Python
+
+```bash
+python3 main.py
 ```
 
 ## Links
