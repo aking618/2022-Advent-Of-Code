@@ -11,23 +11,35 @@ Every day that I complete will be visible in this repo. Folders are labeled with
 | 3   | Java       | X   | X   |
 | 4   | Java       | X   | X   |
 | 5   | PHP        | X   | X   |
-| 6   |            |     |     |
-| 7   |            |     |     |
-| 8   |            |     |     |
-| 9   |            |     |     |
-| 10  |            |     |     |
-| 11  |            |     |     |
-| 12  |            |     |     |
-| 13  |            |     |     |
-| 14  |            |     |     |
-| 15  |            |     |     |
-| 16  |            |     |     |
-| 17  |            |     |     |
-| 18  |            |     |     |
-| 19  |            |     |     |
-| 20  |            |     |     |
-| 21  |            |     |     |
-| 22  |            |     |     |
-| 23  |            |     |     |
-| 24  |            |     |     |
-| 25  |            |     |     |
+| 6   | Python     |     |     |
+
+<br>
+<br>
+
+## How to run
+
+### Javascript
+
+```bash
+index.html
+```
+
+### Java
+
+```bash
+javac *.java
+java Driver
+```
+
+### PHP
+
+```bash
+php solutionOne.php
+php solutionTwo.php
+```
+
+## Links
+
+[Advent of Code](https://adventofcode.com/)
+
+[Advent of Code 2022](https://adventofcode.com/2022)
