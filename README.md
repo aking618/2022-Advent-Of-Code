@@ -4,17 +4,17 @@ Every day that I complete will be visible in this repo. Folders are labeled with
 
 ## Results
 
-| Day | Language   | 1   | 2   |
-| --- | ---------- | --- | --- |
-| 1   | Javascript | X   | X   |
-| 2   | Javascript | X   | X   |
-| 3   | Java       | X   | X   |
-| 4   | Java       | X   | X   |
-| 5   | PHP        | X   | X   |
-| 6   | Python     | X   | X   |
-| 7   | Java       | X   | X   |
-| 8   | Javascript | X   | X   |
-| 9   | Dart       |     |     |
+| Day | Language(s)       | 1   | 2   |
+| --- | ----------------- | --- | --- |
+| 1   | Javascript / Dart | X   | X   |
+| 2   | Javascript        | X   | X   |
+| 3   | Java              | X   | X   |
+| 4   | Java              | X   | X   |
+| 5   | PHP               | X   | X   |
+| 6   | Python            | X   | X   |
+| 7   | Java              | X   | X   |
+| 8   | Javascript        | X   | X   |
+| 9   | Dart              |     |     |
 
 <br>
 <br>
@@ -47,6 +47,12 @@ php solutionTwo.php
 
 ```bash
 python3 main.py
+```
+
+### Dart
+
+```bash
+dart main.dart
 ```
 
 ## Links
