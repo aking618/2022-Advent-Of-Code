@@ -12,7 +12,9 @@ Every day that I complete will be visible in this repo. Folders are labeled with
 | 4   | Java       | X   | X   |
 | 5   | PHP        | X   | X   |
 | 6   | Python     | X   | X   |
-| 7   | Java     | X   | X   |
+| 7   | Java       | X   | X   |
+| 8   | Javascript | X   | X   |
+| 9   | Dart       |     |     |
 
 <br>
 <br>
