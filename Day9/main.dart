@@ -17,21 +17,12 @@ void partOne({List<String>? moves}) {
 
   seen.add(tail);
 
-  Map<String, Point> directions = {
-    "U": Point(0, 1),
-    "D": Point(0, -1),
-    "L": Point(-1, 0),
-    "R": Point(1, 0),
-  };
-
-  List<dynamic> actions = moves!.map((e) => e.split(" ")).toList();
-  actions = actions.map((e) => [e[0], int.parse(e[1])]).toList();
+  List<dynamic> actions = getFormattedInput(moves);
 
   for (var action in actions) {
     for (var i = 0; i < action[1]; i++) {
       head = head + directions[action[0]]!;
 
-      double distance = tail.distanceTo(head);
       double angle = getAngle(head, tail);
 
       if (head.distanceTo(tail) > sqrt2) {
@@ -54,22 +45,13 @@ void partTwo({List<String>? moves}) {
 
   seen.add(rope[rope.length - 1]);
 
-  Map<String, Point> directions = {
-    "U": Point(0, 1),
-    "D": Point(0, -1),
-    "L": Point(-1, 0),
-    "R": Point(1, 0),
-  };
-
-  List<dynamic> actions = moves!.map((e) => e.split(" ")).toList();
-  actions = actions.map((e) => [e[0], int.parse(e[1])]).toList();
+  List<dynamic> actions = getFormattedInput(moves);
 
   for (var action in actions) {
     for (var i = 0; i < action[1]; i++) {
       rope[0] = rope[0] + directions[action[0]]!;
 
       for (var i = 1; i < rope.length; i++) {
-        double distance = rope[i - 1].distanceTo(rope[i]);
         double angle = getAngle(rope[i - 1], rope[i]);
 
         if (rope[i - 1].distanceTo(rope[i]) > sqrt2) {
@@ -85,6 +67,20 @@ void partTwo({List<String>? moves}) {
 
   print("Part 2: ${seen.length}");
 }
+
+/// Helpers ///
+List<dynamic> getFormattedInput(List<String>? moves) {
+  List<dynamic> actions = moves!.map((e) => e.split(" ")).toList();
+  actions = actions.map((e) => [e[0], int.parse(e[1])]).toList();
+  return actions;
+}
+
+Map<String, Point> directions = {
+  "U": Point(0, 1),
+  "D": Point(0, -1),
+  "L": Point(-1, 0),
+  "R": Point(1, 0),
+};
 
 double getAngle(Point head, Point tail) {
   double angle = atan2(head.y - tail.y, head.x - tail.x);
