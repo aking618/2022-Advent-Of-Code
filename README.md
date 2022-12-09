@@ -14,7 +14,7 @@ Every day that I complete will be visible in this repo. Folders are labeled with
 | 6   | Python            | X   | X   |
 | 7   | Java              | X   | X   |
 | 8   | Javascript        | X   | X   |
-| 9   | Dart              |     |     |
+| 9   | Dart              | X   | X   |
 
 <br>
 <br>

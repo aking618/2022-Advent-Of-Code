@@ -1,3 +1,5 @@
+import 'input.dart';
+
 void main() {
   List<String> rounds = input.split("\n");
 

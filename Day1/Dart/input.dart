@@ -1,3 +1,5 @@
+export 'input.dart';
+
 String input = """5324
 5176
 2197
@@ -2253,4 +2255,3 @@ String input = """5324
 3946
 1457
 4469""";
-

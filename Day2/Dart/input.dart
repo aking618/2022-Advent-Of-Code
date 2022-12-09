@@ -1,3 +1,5 @@
+export 'input.dart';
+
 String input = """A Y
 A Y
 B X
@@ -2498,4 +2500,3 @@ A Y
 A Y
 B Y
 A Y""";
-
