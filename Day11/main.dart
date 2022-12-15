@@ -42,9 +42,9 @@ void partOne() {
 void partTwo() {
   resetMonkeys();
 
-  int leastCommonMultiple = 1;
+  int commonMultiple = 1;
   for (Monkey monkey in monkeys) {
-    leastCommonMultiple = lcm(leastCommonMultiple, monkey.divisor);
+    commonMultiple *= monkey.divisor;
   }
 
   for (var round = 0; round < 10000; round++) {
@@ -58,7 +58,7 @@ void partTwo() {
 
         int worryValue = monkeys[i].items.removeAt(0);
         worryValue = monkeys[i].operation(worryValue);
-        worryValue = (worryValue % leastCommonMultiple).floor();
+        worryValue = worryValue % commonMultiple;
 
         monkeys[i].test(worryValue);
       }
@@ -100,6 +100,6 @@ void partTwo() {
     }
   }
 
-  BigInt result = BigInt.from(highest) * BigInt.from(secondHighest);
+  int result = highest * secondHighest;
   print(result);
 }
